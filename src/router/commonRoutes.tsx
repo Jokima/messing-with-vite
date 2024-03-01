@@ -1,13 +1,13 @@
-import Home from "../pages/home/home";
+import { Home } from "../pages/home/home";
 import Systems from "../pages/systems/systems";
 
 export const commonRoutes = [
   {
     path: "/",
-    element: <Home />,
+    element: <Home />
   },
   {
     path: "systems",
-    element: <Systems />,
+    element: <Systems />
   },
 ];

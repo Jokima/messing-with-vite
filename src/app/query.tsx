@@ -14,7 +14,7 @@ export const Query = ({
   enabledQueryDevTools?: boolean,
 }) => (
   <QueryClientProvider client={queryClient}>
-    {children},
-    {enabledQueryDevTools && <ReactQueryDevtools position="right" />},
+    {children}
+    {enabledQueryDevTools && <ReactQueryDevtools position="right" />}
   </QueryClientProvider>
 )
