@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query"
-import { getPosts } from "../../services"
+import { getPosts } from "../../common/services"
 
 export type Post = {
   id: number,

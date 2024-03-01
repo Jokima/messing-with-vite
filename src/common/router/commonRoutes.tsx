@@ -1,5 +1,5 @@
-import { Home } from "../pages/home/home";
-import Systems from "../pages/systems/systems";
+import { Home } from "../../pages/home/home";
+import Systems from "../../pages/systems/systems";
 
 export const commonRoutes = [
   {
